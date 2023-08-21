@@ -1,9 +1,9 @@
 html{
-    cursor: url(../imagens/mata_mosca.png) 30 30, auto;
+    cursor: url(../Mata-mosquito-main/imagens/mata_mosca.png) 30 30, auto;
 }
 
 body{
-    background-image: url(../imagens/bg.jpg);
+    background-image: url(../Mata-mosquito-main/imagens/bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }

@@ -35,7 +35,7 @@ function posicaoMosquito(){
         if(vidas > 3){
             window.location.href = 'fim_de_jogo.html'
         } else{
-            document.getElementById("v" + vidas).src = "../Mata mosquito/imagens/coracao_vazio.png";
+            document.getElementById("v" + vidas).src = "../Mata-mosquito-main/imagens/coracao_vazio.png";
                
            vidas++
         }
@@ -50,7 +50,7 @@ function posicaoMosquito(){
     posicaoY = posicaoY < 0 ? 0 : posicaoY;
 
     let mosquito = document.createElement('img');
-    mosquito.src = '../Mata mosquito/imagens/mosquito.png';
+    mosquito.src = '../Mata-mosquito-main/imagens/mosquito.png';
     mosquito.className = tamanhoAleatorio() + ' ' + ladoAleatorio();
     mosquito.id = 'mosquito';
     mosquito.onclick = function() {
