@@ -1,6 +1,6 @@
 # Mata Mosquito
 
-![Mata Mosquito](../Mata%20mosquito/imagens/image.png)
+![Mata Mosquito](/imagens/image.png)
 
 Um jogo simples em JavaScript onde você precisa esmagar mosquitos antes que o tempo acabe.
 
