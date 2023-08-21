@@ -3,19 +3,25 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../Mata mosquito/css/style.css">
+    <link rel="stylesheet" href="../Mata mosquito/css/style.css" />
     <script src="../Mata mosquito/js/script.js"></script>
     <title>Mata Mosquito</title>
   </head>
   <body onresize="ajustarTamanho()">
+    <div class="painel">
+      <div class="vidas">
+        <img id="v1" src="../Mata mosquito/imagens/coracao_cheio.png" alt="coracao">
+        <img id="v2"src="../Mata mosquito/imagens/coracao_cheio.png" alt="coracao">
+        <img id="v3" src="../Mata mosquito/imagens/coracao_cheio.png" alt="coracao">
+      </div>
+
+      <div class="cronometro">Tempo restante = <span id="tempo"></span></div>
+    </div>
 
     <script>
-
-        setInterval(function(){
-            posicaoMosquito();
-        }, 1000)
-         
+      let criaMosca = setInterval(function () {
+        posicaoMosquito();
+      }, criaTempoMosquito);
     </script>
-
   </body>
 </html>
